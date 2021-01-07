@@ -1,0 +1,181 @@
+.header__nav-link{
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 45px 31px 0 0;
+}
+
+.header__nav-link:hover{
+    color: #007d2f;
+    text-decoration: none;
+}
+
+/* -------------------- header menu end --------------------- */
+/* ********************************************************** */
+/* -------------------- header vhod start ------------------- */
+
+.section-project{
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+
+.section-project input, textarea{
+    width: 100%;
+    padding: 18px 15px;
+    font-size: 15px;
+    color: #787878;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 30px;
+}
+.section-project button{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 100px;
+}
+
+
+.skills__col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.skills__row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section-project h4{
+    color: #171717;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-project p{
+    color: #787878;
+    font-size: 16px;
+    margin: 41px 0 35px;
+}
+
+.section-project h5{
+    color: #787878;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section-project span{
+    color: #171717;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ******************************************************* */
+/* ---------------------- footer ------------------------- */
+
+.footer{
+    background: #141414;
+}
+
+.footer h4{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer h3{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.footer__end{
+    padding: 108px 0;
+    display: flex;
+    flex-direction: column
+}
+
+
+/* **************************************************** */
+/* -------------------- media ------------------------- */
+
+@media(max-width: 991px){
+    .header__menu .navbar-nav {
+        padding: 10px 0;
+        text-align: center;
+        background: #11d15b;
+        border-radius: 20px;
+    }
+    .header__nav-link {
+        margin: 0;
+    }
+}
+
+@media(max-width: 575px){
+    .footer__end {
+        padding: 50px 0;
+    }
+    
+    .footer h4 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    
+    .footer h3 {
+        font-size: 15px;
+    }
+    
+    .section-project h4 {
+        font-size: 26px;
+    }
+    
+    .section-project p {
+        margin: 20px 0 15px;
+        font-size: 13px;
+    }
+    
+    .section-project h5 {
+        font-size: 13px;
+    }
+    
+    .section-project span {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 320px){
+    .footer__end {
+        padding: 30px 0;
+    }
+    
+    .section-project h4 {
+        font-size: 22px;
+    }
+    
+    .section-project p {
+        font-size: 11px;
+    }
+    
+    .section-project h5 {
+        font-size: 11px;
+    }
+    
+    .section-project span {
+        font-size: 11px;
+    }
+    
+    .section-project input, textarea {
+        padding: 18px 15px;
+        margin-bottom: 15px;
+    }
+    
+    .section-project button {
+        margin-bottom: 50px;
+    }
+    
+    .section-project {
+        padding: 50px 0;
+    }
+}
